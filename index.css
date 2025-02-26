@@ -1,0 +1,76 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1579736559776-398a6946543f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    backdrop-filter: blur(1.5px);
+    font-family: "Lato", serif;
+    font-weight: 900;
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #0A0A0A;
+}
+
+#main-container {
+    padding: 1.2rem;
+    min-width: 300px;
+    max-width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 3%;
+    /* background-color: #ffffffd0; */
+    background-color: #EBECEEc0;
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    font-weight: 900;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #EBECEE;
+    font-weight: bold;
+    width: 150px;
+    height: 55px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+    opacity: 80%;
+}
+
+#increment-btn:hover{
+    opacity: 100%;
+}
+
+#save-btn {
+    background: darkgreen;
+    opacity: 80%;
+}
+
+#save-btn:hover{
+    opacity: 100%;
+}
